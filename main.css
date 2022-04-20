@@ -29,6 +29,11 @@ color: #fefefe;
     .nav-link {
     color: #fefefe;
 }
+    
+        head {
+background-color: #121212;
+color: #fefefe;
+    }
 }
 
 img {
@@ -56,4 +61,9 @@ body {
 margin: 5px;
 padding: 5px;
 background-color: #fefefe;
+    }
+
+    head {
+background-color: #fefefe;
+color: #121212;
     }
