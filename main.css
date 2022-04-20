@@ -6,7 +6,7 @@ html {
 }
 
 .nav-link {
-    background-color: inherit;
+    background-color: #fefefe;
     border-radius: 10px;
     transition: background-color 500ms;
     padding: 15px 20px;
@@ -16,14 +16,7 @@ html {
 }
 
 @media (prefers-color-scheme: dark) {
-body {
-margin: 5px;
-padding: 5px;
-background-color: #121212;
-    }
-    
-p {
-color: #fefefe;
+
 }
 
 img {
@@ -50,5 +43,4 @@ p {
 body {
 margin: 5px;
 padding: 5px;
-background-color: #fefefe;
     }
