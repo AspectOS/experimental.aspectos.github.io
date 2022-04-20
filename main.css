@@ -23,7 +23,6 @@ font-family: 'Source Sans Pro', sans-serif;
     border-radius: 10px;
     transition: background-color 500ms;
     padding: 15px 20px;
-    margin: auto;
 }
 
 img {
@@ -46,6 +45,12 @@ p {
   content: '\00a0';
 }
 
+.container-fluid {
+ justify-content: center;
+ margin: auto;
+ text-align: center;
+ }
+ 
 body {
 margin: 5px;
 padding: 5px;
