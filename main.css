@@ -6,12 +6,17 @@ html {
 }
 
 .nav-link {
-    background-color: inherit;
+    background-color: #fefefe;
     border-radius: 10px;
     transition: background-color 500ms;
     padding: 15px 20px;
     margin-left: 20px;
     margin-right: 20px;
+    color: #121212;
+}
+
+@media (prefers-color-scheme: dark) {
+
 }
 
 img {
@@ -23,6 +28,7 @@ img {
 /*needed to change thing to restart deployment*/
 p {
     font-size: 1rem;
+    color: #121212;
 }
 
 .container {
