@@ -5,6 +5,9 @@ html {
     font-family: 'Source Sans Pro', sans-serif; 
 }
 
+@media (prefers-color-scheme: light) {
+    
+
 .nav-link {
     background-color: inherit;
     border-radius: 10px;
@@ -23,6 +26,8 @@ img {
 /*needed to change thing to restart deployment*/
 p {
     font-size: 1rem;
+    color: #121212;
+    background-color: #fefefe;
 }
 
 .container {
@@ -37,4 +42,43 @@ p {
 body {
 margin: 5px;
 padding: 5px;
+background-color: #fefefe;
     }
+}
+
+    @media (prefers-color-scheme: dark) {
+.nav-link {
+    background-color: inherit;
+    border-radius: 10px;
+    transition: background-color 500ms;
+    padding: 15px 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+        
+        img {
+    border-radius: 10px;
+            
+            .main-image {
+    margin-bottom: 75px;
+    box-shadow: 0px 15px 22px 0px var(--main-color);
+                
+}
+            
+        p {
+    font-size: 1rem;
+    color: #121212;
+    background-color: #fefefe;
+}    
+         .container {
+  overflow: hidden;
+  position: relative;
+}
+            
+     body {
+margin: 5px;
+padding: 5px;
+background-color: #121212;
+    }       
+            
+}
