@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
 
-
-@media (prefers-color-scheme: light) {
     html {
      background-color: #fefefe;
      color: #121212;
@@ -42,7 +40,7 @@ body {
 margin: 5px;
 padding: 5px;
     }
-}
+
 
     @media (prefers-color-scheme: dark) {
  html {
