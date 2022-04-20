@@ -1,11 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
 
-    html {
-     background-color: #fefefe;
-     color: #303030;
-         font-size: 19px;
-    font-family: 'Source Sans Pro', sans-serif; 
+@media (prefers-color-scheme: light) {
+ html {
+background-color: #fefefe;
+color: #303030;
+font-size: 19px;
+font-family: 'Source Sans Pro', sans-serif; 
         }
+    }
+
+   @media (prefers-color-scheme: dark) {
+ html {
+background-color: #272727;
+color: #fefefe;
+font-size: 19px;
+font-family: 'Source Sans Pro', sans-serif; 
+        }
+    }
 
 .nav-link {
     background-color: inherit;
