@@ -42,43 +42,11 @@ padding: 5px;
     }
 
 
-    @media (prefers-color-scheme: dark) {
- html {
-     background-color: #121212;
-     color: #fefefe;
-      font-size: 19px;
-    font-family: 'Source Sans Pro', sans-serif; 
-        }
-        
-.nav-link {
-    background-color: inherit;
-    border-radius: 10px;
-    transition: background-color 500ms;
-    padding: 15px 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-        
-        img {
-    border-radius: 10px;
-            
-            .main-image {
-    margin-bottom: 75px;
-    box-shadow: 0px 15px 22px 0px var(--main-color);
-                
-}
-            
-        p {
-    font-size: 1rem;
 
-}    
-         .container {
-  overflow: hidden;
-  position: relative;
+@media (prefers-color-scheme: dark) {
+body {
+background-color: #121212;
+color: #fefefe;
+    }
 }
-            
-     body {
-margin: 5px;
-padding: 5px;
-    }       
-}
+
