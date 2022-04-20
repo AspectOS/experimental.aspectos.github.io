@@ -6,7 +6,7 @@ html {
 }
 
 .nav-link {
-    background-color: #121212;
+    background-color: #inherit;
     border-radius: 10px;
     transition: background-color 500ms;
     padding: 15px 20px;
@@ -28,6 +28,7 @@ color: #fefefe;
     
     .nav-link {
     color: #fefefe;
+        background-color: inherit;
 }
     
         head {
