@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
 
-html {
-    font-size: 19px;
-    font-family: 'Source Sans Pro', sans-serif; 
-}
 
 @media (prefers-color-scheme: light) {
-    
+    html {
+     background-color: #fefefe;
+     color: #121212;
+         font-size: 19px;
+    font-family: 'Source Sans Pro', sans-serif; 
+        }
 
 .nav-link {
     background-color: inherit;
@@ -26,8 +27,6 @@ img {
 /*needed to change thing to restart deployment*/
 p {
     font-size: 1rem;
-    color: #121212;
-    background-color: #fefefe;
 }
 
 .container {
@@ -42,11 +41,17 @@ p {
 body {
 margin: 5px;
 padding: 5px;
-background-color: #fefefe;
     }
 }
 
     @media (prefers-color-scheme: dark) {
+ html {
+     background-color: #121212;
+     color: #fefefe;
+      font-size: 19px;
+    font-family: 'Source Sans Pro', sans-serif; 
+        }
+        
 .nav-link {
     background-color: inherit;
     border-radius: 10px;
@@ -67,8 +72,7 @@ background-color: #fefefe;
             
         p {
     font-size: 1rem;
-    color: #fefefe;
-    background-color: #121212;
+
 }    
          .container {
   overflow: hidden;
@@ -78,7 +82,5 @@ background-color: #fefefe;
      body {
 margin: 5px;
 padding: 5px;
-background-color: #121212;
     }       
-            
 }
