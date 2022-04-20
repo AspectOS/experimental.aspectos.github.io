@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+html {
+    font-size: 19px;
+    font-family: 'Source Sans Pro', sans-serif; 
+}
+
+.nav-link {
+    background-color: inherit;
+    border-radius: 10px;
+    transition: background-color 500ms;
+    padding: 15px 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+img {
+    border-radius: 10px;
+.main-image {
+    margin-bottom: 75px;
+    box-shadow: 0px 15px 22px 0px var(--main-color);
+}
+/*needed to change thing to restart deployment*/
+p {
+    font-size: 1rem;
+}
+
+.container {
+  overflow: hidden;
+  position: relative;
+}
+
+.container::before {
+  content: '\00a0';
+}
+
+body {
+margin: 5px;
+padding: 5px;
+    }
