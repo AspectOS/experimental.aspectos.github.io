@@ -2,8 +2,8 @@
 
 @media (prefers-color-scheme: light) {
  html {
-background-color: #fefefe;
-color: #303030;
+background-color: #272727;
+color: #fefefe;
 font-size: 19px;
 font-family: 'Source Sans Pro', sans-serif; 
         }
@@ -33,6 +33,7 @@ img {
     margin-bottom: 75px;
     box-shadow: 0px 15px 22px 0px var(--main-color);
 }
+ 
 /*needed to change thing to restart deployment*/
 p {
     font-size: 1rem;
@@ -46,24 +47,6 @@ p {
 .container::before {
   content: '\00a0';
 }
-
-.navbar-center {
- text-align: center;
- align-items: center;
- align-self: center;
- align-content: center;
- justify-items: center;
- justify-self: center;
- justify-content: center;
- place-items: center;
- vertical-align: middle;
- line-height: 100%;
- margin: auto;
- positon: absolute;
- left: 50%;
- right: 50%;
- transform: translate(-50%, -50%);
- }
  
 body {
 margin: 5px;
