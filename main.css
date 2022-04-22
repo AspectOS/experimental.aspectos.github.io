@@ -1,22 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
 
-@media (prefers-color-scheme: light) {
  html {
-background-color: #272727;
-color: #fefefe;
 font-size: 19px;
 font-family: 'Source Sans Pro', sans-serif; 
-        }
-    }
+}
 
-   @media (prefers-color-scheme: dark) {
- html {
-background-color: #272727;
-color: #fefefe;
-font-size: 19px;
-font-family: 'Source Sans Pro', sans-serif; 
-        }
-    }
+@media (prefers-color-scheme: dark) {
+ --text-color: #fefefe;
+ --background-color: #303030;
+}
+
+@media (prefers-color-scheme: light) {
+ --text-color: #121212;
+ --background-color: #fefefe;
+}
 
 .nav-link {
     background-color: inherit;
@@ -25,6 +22,7 @@ font-family: 'Source Sans Pro', sans-serif;
     padding: 15px 20px;
     margin-left: auto;
     margin-right: auto;
+    color: var(--text-color);
 }
 
 img {
@@ -51,4 +49,6 @@ p {
 body {
 margin: 5px;
 padding: 5px;
+background-color: var(--background-color);
+color: var(--text-color);
     }
