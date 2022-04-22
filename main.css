@@ -36,7 +36,6 @@ img {
     box-shadow: 0px 15px 22px 0px var(--main-color);
 }
  
-/*needed to change thing to restart deployment*/
 p {
     font-size: 1rem;
 }
